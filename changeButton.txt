@@ -1,0 +1,82 @@
+'use strict';
+
+//EDIT FOR EVERY NEW WALLPAPER
+shared.soundNum = 6;
+shared.cgNum = 4;
+
+shared.changeCG = false;
+shared.birthday = false;
+shared.dialog = true;
+shared.button = true;
+shared.lang = 0;
+
+var id = -1;
+var nid = -1;
+
+export function applyUserProperties(changedUserProperties) {
+	if (changedUserProperties.hasOwnProperty('cgdefaultcg')) {
+		if (id==0) {
+			thisScene.getLayer(`${shared.playedSound}.mp3`).stop();
+		}
+		id = +changedUserProperties.cgdefaultcg;
+		nid = id+1==shared.cgNum ? 0 : id+1;
+		for (var i = 0; i < shared.cgNum; i++) {
+			if (i==id) {
+				thisScene.getLayer(`cg${i}`).visible = true;
+			}
+			else {
+				thisScene.getLayer(`cg${i}`).visible = false;
+			}
+		}
+	}
+
+	if (changedUserProperties.hasOwnProperty('textbox')) {
+		shared.dialog = changedUserProperties.textbox;
+		for (var i = 0; i < shared.soundNum*3; i++) {
+			thisScene.getLayer(`chat${i}`).visible = false;
+		}
+	}
+
+	if (changedUserProperties.hasOwnProperty('button')) {
+		shared.button = changedUserProperties.button;
+		thisScene.getLayer(`changeButton`).visible = shared.button;
+	}
+
+	if (changedUserProperties.hasOwnProperty('birthdayvoice')) {
+		shared.birthday = changedUserProperties.birthdayvoice;
+	}
+
+	if (changedUserProperties.hasOwnProperty('language')) {
+		shared.lang = +changedUserProperties.language;
+		for (var i = 0; i < shared.soundNum*3; i++) {
+			thisScene.getLayer(`chat${i}`).visible = false;
+		}
+	}
+}
+
+export function update(value) {
+	for (var i = 0;shared.dialog && i < shared.soundNum; i++) {
+		if (thisScene.getLayer(`${i}.mp3`).isPlaying()) {
+			thisScene.getLayer(`chat${shared.soundNum*shared.lang + i}`).visible = true;
+		}
+		else {
+			thisScene.getLayer(`chat${shared.soundNum*shared.lang + i}`).visible = false;
+		}
+	}
+
+	return value;
+}
+
+export function cursorClick(event) {
+	if (shared.button) {
+		shared.changeCG = true;
+		if (id==0) {
+			thisScene.getLayer(`${shared.playedSound}.mp3`).stop();
+		}
+		thisScene.getLayer(`cg${nid}`).visible = true;
+		thisScene.getLayer(`cg${id}`).visible = false;
+
+		id = id+1==shared.cgNum ? 0 : id+1;
+		nid = id+1==shared.cgNum ? 0 : id+1;
+	}	
+}

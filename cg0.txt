@@ -1,0 +1,33 @@
+'use strict';
+
+/**
+ * @param {CursorEvent} event
+ */
+
+shared.playedSound = 0;
+
+export function cursorClick(event) {
+	engine.setTimeout(function() {
+		if (shared.changeCG) {
+			shared.changeCG = false;
+		}
+		else {
+			if (thisScene.getLayer(`cg0`).visible) {
+				if (thisScene.getLayer(`${shared.playedSound}.mp3`).isPlaying()) {
+					thisScene.getLayer(`${shared.playedSound}.mp3`).stop();
+				}
+				var id;
+				if (shared.birthday) {
+					id = shared.soundNum-1;
+				}
+				else {
+					do {
+						id = Math.floor(Math.random() * (shared.soundNum-1));
+					} while(id==shared.playedSound);
+				}
+				shared.playedSound = id;
+				thisScene.getLayer(`${id}.mp3`).play();
+			}
+		}
+	},10);
+}
