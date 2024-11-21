@@ -1,9 +1,9 @@
 // 預設背景資源
 
 const vidNum = 1;
-const imgNum = 3;
+const imgNum = 2;
 const voiceNum = 6;
-const voiceL = [12,12,11,9,15,10];
+const voiceL = [9,7,7,8,11,10];
 
 let cgIndex = -1;
 let voiceIndex = 0;

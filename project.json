@@ -1,0 +1,172 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "An interactive wallpaper with voice, switchable CG, and language settings.\n音声対応、立ち絵切り替え可能、言語調整ができるインタラクティブな壁紙。\n互動式桌布，有語音、可切換立繪、可切換語言。\n互动式壁纸，有语音、可切换立绘、可切换语言。",
+	"file" : "index.html",
+	"general" : 
+	{
+		"localization" : 
+		{
+			"en-us" : 
+			{
+				"ui_birthdayvoice" : "Birthday Voice",
+				"ui_button" : "Button Display",
+				"ui_cgdefaultcg" : "Default CG",
+				"ui_cgdefaultcg_0" : "3☆ CG",
+				"ui_cgdefaultcg_1" : "Story CG 1",
+				"ui_cgdefaultcg_2" : "Story CG 2",
+				"ui_cosvolume" : "Volume",
+				"ui_language" : "Dialog Box Language",
+				"ui_language_0" : "日本語",
+				"ui_language_1" : "繁體中文",
+				"ui_language_2" : "简体中文",
+				"ui_textbox" : "Dialog Box Display"
+			},
+			"ja-jp" : 
+			{
+				"ui_birthdayvoice" : "誕生日ボイス",
+				"ui_button" : "ボタン表示",
+				"ui_cgdefaultcg" : "デフォルト CG",
+				"ui_cgdefaultcg_0" : "3☆ CG",
+				"ui_cgdefaultcg_1" : "ストーリー CG 1",
+				"ui_cgdefaultcg_2" : "ストーリー CG 2",
+				"ui_cosvolume" : "音量",
+				"ui_language" : "会話ウィンドウ言語",
+				"ui_language_0" : "日本語",
+				"ui_language_1" : "繁體中文",
+				"ui_language_2" : "简体中文",
+				"ui_textbox" : "会話ウィンドウ表示"
+			},
+			"zh-chs" : 
+			{
+				"ui_birthdayvoice" : "生日语音",
+				"ui_button" : "显示按钮",
+				"ui_cgdefaultcg" : "默认 CG",
+				"ui_cgdefaultcg_0" : "3☆ CG",
+				"ui_cgdefaultcg_1" : "角色剧情 CG 1",
+				"ui_cgdefaultcg_2" : "角色剧情 CG 2",
+				"ui_cosvolume" : "音量",
+				"ui_language" : "对话框语言",
+				"ui_language_0" : "日本語",
+				"ui_language_1" : "繁體中文",
+				"ui_language_2" : "简体中文",
+				"ui_textbox" : "对话框显示"
+			},
+			"zh-cht" : 
+			{
+				"ui_birthdayvoice" : "生日語音",
+				"ui_button" : "顯示按鈕",
+				"ui_cgdefaultcg" : "預設 CG",
+				"ui_cgdefaultcg_0" : "3☆ CG",
+				"ui_cgdefaultcg_1" : "角色劇情 CG 1",
+				"ui_cgdefaultcg_2" : "角色劇情 CG 2",
+				"ui_cosvolume" : "音量",
+				"ui_language" : "對話框語言",
+				"ui_language_0" : "日本語",
+				"ui_language_1" : "繁體中文",
+				"ui_language_2" : "简体中文",
+				"ui_textbox" : "對話框顯示"
+			}
+		},
+		"properties" : 
+		{
+			"birthdayvoice" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "ui_birthdayvoice",
+				"type" : "bool",
+				"value" : false
+			},
+			"button" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "ui_button",
+				"type" : "bool",
+				"value" : true
+			},
+			"cgdefaultcg" : 
+			{
+				"index" : 1,
+				"options" : 
+				[
+					{
+						"label" : "ui_cgdefaultcg_0",
+						"value" : "0"
+					},
+					{
+						"label" : "ui_cgdefaultcg_1",
+						"value" : "1"
+					},
+					{
+						"label" : "ui_cgdefaultcg_2",
+						"value" : "2"
+					}
+				],
+				"order" : 101,
+				"text" : "ui_cgdefaultcg",
+				"type" : "combo",
+				"value" : "0"
+			},
+			"cusvolume" : 
+			{
+				"fraction" : false,
+				"index" : 0,
+				"max" : 100,
+				"min" : 0,
+				"order" : 100,
+				"text" : "ui_cusvolume",
+				"type" : "slider",
+				"value" : 50
+			},
+			"language" : 
+			{
+				"index" : 5,
+				"options" : 
+				[
+					{
+						"label" : "ui_language_0",
+						"value" : "0"
+					},
+					{
+						"label" : "ui_language_1",
+						"value" : "1"
+					},
+					{
+						"label" : "ui_language_2",
+						"value" : "2"
+					}
+				],
+				"order" : 105,
+				"text" : "ui_language",
+				"type" : "combo",
+				"value" : "0"
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.7019607843137254 0.6823529411764706 0.7843137254901961"
+			},
+			"textbox" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "ui_textbox",
+				"type" : "bool",
+				"value" : true
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"tags" : [ "Anime" ],
+	"title" : "互動式 プリコネR 公主連結 公主连结 PrincessConnect! Re: Dive シズル（サマー）",
+	"type" : "web",
+	"version" : 3,
+	"visibility" : "public",
+	"workshopid" : "3369723255",
+	"workshopurl" : "steam://url/CommunityFilePage/3369723255"
+}
