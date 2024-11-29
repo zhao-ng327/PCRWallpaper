@@ -1,6 +1,6 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "An interactive wallpaper with voice, switchable CG, and language settings.\n音声対応、立ち絵切り替え可能、言語調整ができるインタラクティブな壁紙。\n互動式桌布，有語音、可切換立繪、可切換語言。\n互动式壁纸，有语音、可切换立绘、可切换语言。",
+	"description" : "An interactive wallpaper with voice, switchable CG, and language settings.\n音声対応、立ち絵切り替え可能、言語調整ができるインタラクティブな壁紙。\n互動式桌布，有語音、可切換立繪、可切換語言。\n互动式壁纸，有语音、可切换立绘、可切换语言。\n\n留言幫我想下一個做誰吧 我取第一個做",
 	"file" : "index.html",
 	"general" : 
 	{
@@ -12,10 +12,16 @@
 				"ui_button" : "Button Display",
 				"ui_cgdefaultcg" : "Default CG",
 				"ui_cgdefaultcg_0" : "3☆ CG",
-				"ui_cgdefaultcg_1" : "Story CG 1",
-				"ui_cgdefaultcg_2" : "Story CG 2",
-				"ui_cgdefaultcg_3" : "Story CG 3",
-				"ui_cgdefaultcg_4" : "Story CG 4",
+				"ui_cgdefaultcg_1" : "6☆ CG",
+				"ui_cgdefaultcg_10" : "Story CG 9",
+				"ui_cgdefaultcg_2" : "Story CG 1",
+				"ui_cgdefaultcg_3" : "Story CG 2",
+				"ui_cgdefaultcg_4" : "Story CG 3",
+				"ui_cgdefaultcg_5" : "Story CG 4",
+				"ui_cgdefaultcg_6" : "Story CG 5",
+				"ui_cgdefaultcg_7" : "Story CG 6",
+				"ui_cgdefaultcg_8" : "Story CG 7",
+				"ui_cgdefaultcg_9" : "Story CG 8",
 				"ui_cusvolume" : "Volume",
 				"ui_language" : "Dialog Box Language",
 				"ui_language_0" : "日本語",
@@ -29,10 +35,16 @@
 				"ui_button" : "ボタン表示",
 				"ui_cgdefaultcg" : "デフォルト CG",
 				"ui_cgdefaultcg_0" : "3☆ CG",
-				"ui_cgdefaultcg_1" : "ストーリー CG 1",
-				"ui_cgdefaultcg_2" : "ストーリー CG 2",
-				"ui_cgdefaultcg_3" : "ストーリー CG 3",
-				"ui_cgdefaultcg_4" : "ストーリー CG 4",
+				"ui_cgdefaultcg_1" : "6☆ CG",
+				"ui_cgdefaultcg_10" : "ストーリー CG 9",
+				"ui_cgdefaultcg_2" : "ストーリー CG 1",
+				"ui_cgdefaultcg_3" : "ストーリー CG 2",
+				"ui_cgdefaultcg_4" : "ストーリー CG 3",
+				"ui_cgdefaultcg_5" : "ストーリー CG 4",
+				"ui_cgdefaultcg_6" : "ストーリー CG 5",
+				"ui_cgdefaultcg_7" : "ストーリー CG 6",
+				"ui_cgdefaultcg_8" : "ストーリー CG 7",
+				"ui_cgdefaultcg_9" : "ストーリー CG 8",
 				"ui_cusvolume" : "音量",
 				"ui_language" : "会話ウィンドウ言語",
 				"ui_language_0" : "日本語",
@@ -46,10 +58,16 @@
 				"ui_button" : "显示按钮",
 				"ui_cgdefaultcg" : "默认 CG",
 				"ui_cgdefaultcg_0" : "3☆ CG",
-				"ui_cgdefaultcg_1" : "角色剧情 CG 1",
-				"ui_cgdefaultcg_2" : "角色剧情 CG 2",
-				"ui_cgdefaultcg_3" : "角色剧情 CG 3",
-				"ui_cgdefaultcg_4" : "角色剧情 CG 4",
+				"ui_cgdefaultcg_1" : "6☆ CG",
+				"ui_cgdefaultcg_10" : "角色剧情 CG 9",
+				"ui_cgdefaultcg_2" : "角色剧情 CG 1",
+				"ui_cgdefaultcg_3" : "角色剧情 CG 2",
+				"ui_cgdefaultcg_4" : "角色剧情 CG 3",
+				"ui_cgdefaultcg_5" : "角色剧情 CG 4",
+				"ui_cgdefaultcg_6" : "角色剧情 CG 5",
+				"ui_cgdefaultcg_7" : "角色剧情 CG 6",
+				"ui_cgdefaultcg_8" : "角色剧情 CG 7",
+				"ui_cgdefaultcg_9" : "角色剧情 CG 8",
 				"ui_cusvolume" : "音量",
 				"ui_language" : "对话框语言",
 				"ui_language_0" : "日本語",
@@ -63,10 +81,16 @@
 				"ui_button" : "顯示按鈕",
 				"ui_cgdefaultcg" : "預設 CG",
 				"ui_cgdefaultcg_0" : "3☆ CG",
-				"ui_cgdefaultcg_1" : "角色劇情 CG 1",
-				"ui_cgdefaultcg_2" : "角色劇情 CG 2",
-				"ui_cgdefaultcg_3" : "角色劇情 CG 3",
-				"ui_cgdefaultcg_4" : "角色劇情 CG 4",
+				"ui_cgdefaultcg_1" : "6☆ CG",
+				"ui_cgdefaultcg_10" : "角色劇情 CG 9",
+				"ui_cgdefaultcg_2" : "角色劇情 CG 1",
+				"ui_cgdefaultcg_3" : "角色劇情 CG 2",
+				"ui_cgdefaultcg_4" : "角色劇情 CG 3",
+				"ui_cgdefaultcg_5" : "角色劇情 CG 4",
+				"ui_cgdefaultcg_6" : "角色劇情 CG 5",
+				"ui_cgdefaultcg_7" : "角色劇情 CG 6",
+				"ui_cgdefaultcg_8" : "角色劇情 CG 7",
+				"ui_cgdefaultcg_9" : "角色劇情 CG 8",
 				"ui_cusvolume" : "音量",
 				"ui_language" : "對話框語言",
 				"ui_language_0" : "日本語",
@@ -117,6 +141,30 @@
 					{
 						"label" : "ui_cgdefaultcg_4",
 						"value" : "4"
+					},
+					{
+						"label" : "ui_cgdefaultcg_5",
+						"value" : "5"
+					},
+					{
+						"label" : "ui_cgdefaultcg_6",
+						"value" : "6"
+					},
+					{
+						"label" : "ui_cgdefaultcg_7",
+						"value" : "7"
+					},
+					{
+						"label" : "ui_cgdefaultcg_8",
+						"value" : "8"
+					},
+					{
+						"label" : "ui_cgdefaultcg_9",
+						"value" : "9"
+					},
+					{
+						"label" : "ui_cgdefaultcg_10",
+						"value" : "10"
 					}
 				],
 				"order" : 101,
@@ -145,8 +193,8 @@
 						"value" : "0"
 					},
 					{
-						"label" : "ui_language_1",
-						"value" : "1"
+						"label" : "ui_language_2",
+						"value" : "2"
 					}
 				],
 				"order" : 105,
@@ -159,7 +207,7 @@
 				"order" : 0,
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
-				"value" : "0.3176470588235294 0.596078431372549 0.7372549019607844"
+				"value" : "0.996078431372549 0.803921568627451 0.4980392156862745"
 			},
 			"textbox" : 
 			{
@@ -177,5 +225,8 @@
 	"tags" : [ "Anime" ],
 	"title" : "互動式 プリコネR 公主連結 公主连结 PrincessConnect! Re: Dive ペコリーヌ（サマー）",
 	"type" : "web",
+	"version" : 1,
 	"visibility" : "public",
+	"workshopid" : "3373821003",
+	"workshopurl" : "steam://url/CommunityFilePage/3373821003"
 }
