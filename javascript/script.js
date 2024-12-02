@@ -3,10 +3,10 @@
 const vidNum = 1;
 const imgNum = 4;
 const voiceNum = 6;
-const voiceL = [11,16,12,9,11,11];
+const voiceL = [13,13,12,11,9,12];
 
 let cgIndex = -1;
-let voiceIndex = 0;
+let preVoiceIndex = 0;
 let audio = null;
 let timer = null;
 
@@ -66,15 +66,15 @@ videoElement.addEventListener('click', function () {
     else {
         do {
             i = Math.floor(Math.random() * (voiceNum-1));
-        }while(i==voiceIndex);
+        }while(i==preVoiceIndex);
     }
     
-    voiceIndex = i;
-    audio = new Audio(`resource/voice/${voiceIndex}.mp3`);
+    preVoiceIndex = i;
+    audio = new Audio(`resource/voice/${preVoiceIndex}.mp3`);
     audio.volume = volume/100;
 
     if (showDialog) {
-        chat.src = `resource/chat/${lang*voiceNum + voiceIndex}.png`;
+        chat.src = `resource/chat/${lang*voiceNum + preVoiceIndex}.png`;
         chat.style.display = 'block';
         chat.style.opacity = '1';
     
@@ -84,7 +84,7 @@ videoElement.addEventListener('click', function () {
             setTimeout(() => {
                 chat.style.display = 'none'; // 完全隱藏
             }, 300); // 等待平滑效果完成
-        }, voiceL[voiceIndex]*1000);
+        }, voiceL[preVoiceIndex]*1000);
     }
 
     audio.play();
