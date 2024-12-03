@@ -16,6 +16,7 @@
 				"ui_cgdefaultcg_2" : "Story CG 2",
 				"ui_cgdefaultcg_3" : "Story CG 3",
 				"ui_cgdefaultcg_4" : "Story CG 4",
+				"ui_cgdefaultcg_5" : "Story CG 5",
 				"ui_cusvolume" : "Volume",
 				"ui_language" : "Dialog Box Language",
 				"ui_language_0" : "日本語",
@@ -33,6 +34,7 @@
 				"ui_cgdefaultcg_2" : "ストーリー CG 2",
 				"ui_cgdefaultcg_3" : "ストーリー CG 3",
 				"ui_cgdefaultcg_4" : "ストーリー CG 4",
+				"ui_cgdefaultcg_5" : "ストーリー CG 5",
 				"ui_cusvolume" : "音量",
 				"ui_language" : "会話ウィンドウ言語",
 				"ui_language_0" : "日本語",
@@ -50,6 +52,7 @@
 				"ui_cgdefaultcg_2" : "角色剧情 CG 2",
 				"ui_cgdefaultcg_3" : "角色剧情 CG 3",
 				"ui_cgdefaultcg_4" : "角色剧情 CG 4",
+				"ui_cgdefaultcg_5" : "角色剧情 CG 5",
 				"ui_cusvolume" : "音量",
 				"ui_language" : "对话框语言",
 				"ui_language_0" : "日本語",
@@ -67,6 +70,7 @@
 				"ui_cgdefaultcg_2" : "角色劇情 CG 2",
 				"ui_cgdefaultcg_3" : "角色劇情 CG 3",
 				"ui_cgdefaultcg_4" : "角色劇情 CG 4",
+				"ui_cgdefaultcg_5" : "角色劇情 CG 5",
 				"ui_cusvolume" : "音量",
 				"ui_language" : "對話框語言",
 				"ui_language_0" : "日本語",
@@ -167,7 +171,7 @@
 				"order" : 0,
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
-				"value" : "0.4745098039215686 0.8470588235294118 0.8784313725490196"
+				"value" : "0.27058823529411763 0.1803921568627451 0.2823529411764706"
 			},
 			"textbox" : 
 			{
@@ -184,5 +188,8 @@
 	"ratingviolence" : "none",
 	"tags" : [ "Anime" ],
 	"title" : "互動式 プリコネR 公主連結 公主连结 PrincessConnect! Re: Dive キャル（ニューイヤー）",
-	"type" : "web"
+	"type" : "web",
+	"version" : 1,
+	"workshopid" : "3377354975",
+	"workshopurl" : "steam://url/CommunityFilePage/3377354975"
 }
