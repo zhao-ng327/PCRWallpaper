@@ -117,6 +117,10 @@
 					{
 						"label" : "ui_cgdefaultcg_4",
 						"value" : "4"
+					},
+					{
+						"label" : "ui_cgdefaultcg_5",
+						"value" : "5"
 					}
 				],
 				"order" : 101,
@@ -179,10 +183,6 @@
 	"ratingsex" : "none",
 	"ratingviolence" : "none",
 	"tags" : [ "Anime" ],
-	"title" : "互動式 プリコネR 公主連結 公主连结 PrincessConnect! Re: Dive コッコロ（プリンセス）",
-	"type" : "web",
-	"version" : 4,
-	"visibility" : "public",
-	"workshopid" : "3376731048",
-	"workshopurl" : "steam://url/CommunityFilePage/3376731048"
+	"title" : "互動式 プリコネR 公主連結 公主连结 PrincessConnect! Re: Dive キャル（ニューイヤー）",
+	"type" : "web"
 }
