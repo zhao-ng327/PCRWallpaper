@@ -3,7 +3,7 @@
 const vidNum = 1;
 const imgNum = 4;
 const voiceNum = 6;
-const voiceL = [13,13,12,11,9,12];
+const voiceL = [11,12,12,10,12,8];
 
 let cgIndex = -1;
 let preVoiceIndex = 0;
